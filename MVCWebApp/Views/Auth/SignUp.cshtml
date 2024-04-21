@@ -1,0 +1,104 @@
+﻿@model SignUpViewModel
+@{
+    ViewData["Title"] = "Sign Up";
+}
+<div class="wrapper">
+    <header>
+        <div class="container">
+            <div class="siliconlogo">
+                <a asp-action="Home" asp-controller="Default">
+                    <img src="~/images/solid.svg" alt="silicon logo">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="#">Overview</a>
+                    <a href="#">Features</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <div class="switch">
+                <p class="lightswitch">Light</p>
+                <label>
+                    <input type="checkbox">
+                    <span class="sliderround"></span>
+                </label>
+                <p class="darkswitch">Dark</p>
+            </div>
+            <div class="menubuttons">
+                <a asp-action="SignIn" asp-controller="Auth">
+                    <button class="btn-white-s"><i class="fa-solid fa-arrow-right-to-bracket"></i> Sign in</button>
+                </a>
+                <a id="signupid" asp-action="SignUp" asp-controller="Auth">
+                    <button class="btn-purple-s"><i class="fa-regular fa-user"></i> Sign up</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container">
+
+            @if (!string.IsNullOrEmpty(ViewData["StatusMessage"]?.ToString()))
+            {
+                @ViewData["StatusMessage"]
+            }
+
+            <form method="post" asp-action="SignUp" asp-controller="Auth" novalidate>
+                <div class="createacctext">
+                    <h2>Create Account</h2>
+                    <p>Already have an account? <a asp-action="SignIn" asp-controller="Auth">Sign in here.</a></p>
+                </div>
+                <div class="creatingacc">
+                    <div class="firstlastname">
+                        <div>
+                            <p>First name</p>
+                            <input asp-for="FirstName">
+                            <span asp-validation-for="FirstName"></span>
+                        </div>
+                        <div>
+                            <p>Last name</p>
+                            <input asp-for="LastName">
+                            <span asp-validation-for="LastName"></span>
+                        </div>
+                    </div>
+                    <div class="emailpassconf">
+                        <div>
+                            <p>Email address</p>
+                            <input asp-for="Email">
+                            <span asp-validation-for="Email"></span>
+                        </div>
+                        <div>
+                            <p>Password</p>
+                            <input asp-for="Password">
+                            <span asp-validation-for="Password"></span>
+                        </div>
+                        <div>
+                            <p>Confirm password</p>
+                            <input asp-for="ConfirmPassword">
+                            <span asp-validation-for="ConfirmPassword"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="accepttnc">
+                    <input asp-for="TermsAndConditions">
+                    <p>I agree to the <a href="#">Terms</a> & <a href="#">Conditions</a>.</p>
+                    <span asp-validation-for="TermsAndConditions"></span>
+                </div>
+
+                <button type="submit" class="btn-purple-s">Sign up</button>
+            </form>
+
+        </div>
+    </main>
+
+    @await Html.PartialAsync("_ValidationScriptPartial")
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Silicon. All rights reserved. Pulvinar urna condimentum amet tempor, ornare integer. Lorem odio justo malesuada suspendisse</p>
+            <p class="footerrights">viverra aliquet quisque turpis non. Feugiat in odio non nunc ornare consectetur.</p>
+        </div>
+    </footer>
+</div>

@@ -1,0 +1,61 @@
+﻿@model SubscribeViewModel
+
+
+
+<section id="subscribe" class="subscribe">
+    <div class="container">
+        <div class="subscribehead">
+            <h3>Don't Want to Miss Anything?</h3>
+            <img src="~/images/curvedarrow.svg" alt="arrow that curves">
+        </div>
+        <form method="post" asp-action="Subscribe" asp-controller="Default" novalidate>
+            <div class="signupnewsletter">
+                <h4>Sign up for</h4>
+                <h4>Newsletters</h4>
+            </div>
+            <div class="newsletter">
+                <div id="backupabit">
+                    <input class="checkboxcolor" asp-for="DailyNewsletter">
+                    <p>Daily Newsletter</p>
+                </div>
+                <div id="changeplace2">
+                    <input class="checkboxcolor" asp-for="AdvertisingUpdates">
+                    <p>Advertising Updates</p>
+                </div>
+                <div>
+                    <input class="checkboxcolor" asp-for="WeekinReview">
+                    <p>Week in Review</p>
+                </div>
+                <div id="backupabit" class="changeplace">
+                    <input class="checkboxcolor" asp-for="EventUpdates">
+                    <p>Event Updates</p>
+                </div>
+                <div id="changeplace2" class="changeplace">
+                    <input class="checkboxcolor" asp-for="StartupsWeekly">
+                    <p>Startups Weekly</p>
+                </div>
+                <div class="changeplace">
+                    <input class="checkboxcolor" asp-for="Podcasts">
+                    <p>Podcasts</p>
+                </div>
+            </div>
+            <div class="subscribeemail">
+                <div class="input-box">
+                    <input asp-for="Email">
+                </div>
+                <button type="submit" class="btn-purple-s">Subscribe *</button>
+            </div>
+            @if (!string.IsNullOrEmpty(TempData["StatusMessage"]?.ToString()))
+            {
+                @TempData["StatusMessage"]
+            }
+            else
+            {
+                <div>
+                    <p><a class="lineundernone" href="#">*</a> Yes, I agree to the <a href="#">terms</a> and <a href="#">privacy policy</a></p>
+                </div>
+            }
+            
+        </form>
+    </div>
+</section>

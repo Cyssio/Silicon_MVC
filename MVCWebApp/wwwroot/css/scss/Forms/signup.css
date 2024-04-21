@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  transition: 0.4s;
+}
+.wrapper .btn-white-s {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.4s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  position: relative;
+  left: -80px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header .switch {
+  display: flex;
+  padding-top: 7px;
+  position: relative;
+  left: 185px;
+  top: 3px;
+}
+.wrapper header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wrapper header .switch label {
+  position: relative;
+}
+.wrapper header .switch label .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.wrapper header .switch label .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper header .switch label input:checked + .sliderround {
+  background-color: #6366f1;
+}
+.wrapper header .switch label input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper header .switch p {
+  color: #565973;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper header .switch .lightswitch {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.wrapper header .switch .darkswitch {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.wrapper header .menubuttons {
+  display: flex;
+  gap: 20px;
+}
+.wrapper header .menubuttons a {
+  text-decoration: none;
+  position: relative;
+  left: 110px;
+  height: 40px;
+}
+.wrapper main {
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+.wrapper main .container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-right: 80px;
+}
+.wrapper main .container .createacctext h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.wrapper main .container .createacctext p {
+  font-size: 18px;
+}
+.wrapper main .container .createacctext p a {
+  text-decoration: none;
+}
+.wrapper main .container .creatingacc {
+  padding-top: 10px;
+}
+.wrapper main .container .creatingacc .firstlastname {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.wrapper main .container .creatingacc .firstlastname p {
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .creatingacc .firstlastname input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+.wrapper main .container .creatingacc .emailpassconf {
+  display: grid;
+  gap: 15px;
+  padding-top: 20px;
+}
+.wrapper main .container .creatingacc .emailpassconf p {
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .creatingacc .emailpassconf input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+.wrapper main .container .accepttnc {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.wrapper main .container .accepttnc input {
+  width: 17px;
+  height: 20px;
+  position: relative;
+  top: 29px;
+  accent-color: #6366F1;
+  cursor: pointer;
+}
+.wrapper main .container .accepttnc p {
+  padding-left: 30px;
+  font-size: 17px;
+  color: #565973;
+}
+.wrapper main .container a button {
+  width: 100%;
+  height: 45px;
+}
+.wrapper footer {
+  padding-top: 100px;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}

@@ -1,0 +1,1853 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  transition: 0.4s;
+}
+.wrapper .btn-white-s {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.4s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  position: relative;
+  left: -80px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header .switch {
+  display: flex;
+  padding-top: 7px;
+  position: relative;
+  left: 185px;
+  top: 3px;
+}
+.wrapper header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wrapper header .switch label {
+  position: relative;
+}
+.wrapper header .switch label .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.wrapper header .switch label .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper header .switch label input:checked + .sliderround {
+  background-color: #6366f1;
+}
+.wrapper header .switch label input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper header .switch p {
+  color: #565973;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper header .switch .lightswitch {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.wrapper header .switch .darkswitch {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.wrapper header .menubuttons {
+  display: flex;
+  gap: 20px;
+}
+.wrapper header .menubuttons a {
+  text-decoration: none;
+  position: relative;
+  left: 110px;
+  height: 40px;
+}
+.wrapper main {
+  /* Management section */
+  /* Benefits section */
+  /* Slider section */
+  /* Content section */
+  /* Apps section */
+  /* Tools section */
+  /* Subscribe section */
+}
+.wrapper main .management {
+  padding-top: 125px;
+  padding-bottom: 315px;
+}
+.wrapper main .management .container {
+  display: grid;
+}
+.wrapper main .management .container h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #0B0F19;
+  margin-right: 750px;
+}
+.wrapper main .management .container .headerp {
+  color: #565973;
+  padding-top: 30px;
+  font-weight: 450;
+  font-size: 18px;
+}
+.wrapper main .management .container .headerpp {
+  color: #565973;
+  position: relative;
+  top: -12px;
+  font-weight: 450;
+  font-size: 18px;
+  padding-bottom: 25px;
+}
+.wrapper main .management .container button {
+  padding: 12px 30px;
+  position: relative;
+  left: -1px;
+  margin-bottom: 130px;
+  width: 20%;
+}
+.wrapper main .management .container .tasktext {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.wrapper main .management .container .logo1 {
+  margin-left: 35px;
+}
+.wrapper main .management .container .logo2 {
+  margin-left: 35px;
+}
+.wrapper main .management .container .logo3 {
+  margin-left: 35px;
+}
+.wrapper main .management .container .headerimage {
+  position: absolute;
+  left: 895px;
+  top: -120px;
+}
+.wrapper main .benefits {
+  background-color: #E2E5F1;
+}
+.wrapper main .benefits .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.wrapper main .benefits .container .benefits-text {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper main .benefits .container .benefits-text h2 {
+  color: #0B0F19;
+  font-weight: 700;
+  font-size: 45px;
+}
+.wrapper main .benefits .container .benefits-text p {
+  color: #9397AD;
+  font-weight: 400;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.wrapper main .benefits .container .benefits-text .benef-subtext {
+  position: relative;
+  left: 285px;
+  top: -34px;
+  font-size: 20px;
+}
+.wrapper main .benefits .container .icon-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.wrapper main .benefits .container .icon-content h6 {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 6px;
+}
+.wrapper main .benefits .container .icon-content img {
+  margin-bottom: 35px;
+}
+.wrapper main .benefits .container .icon-content .icon-box1 {
+  padding: 45px;
+}
+.wrapper main .benefits .container .icon-content .icon-box1:hover {
+  background-color: #EFF2FC;
+}
+.wrapper main .benefits .container .icon-content .icon-box2 {
+  padding: 45px;
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-color: #9397AD;
+}
+.wrapper main .benefits .container .icon-content .icon-box2:hover {
+  background-color: #EFF2FC;
+}
+.wrapper main .benefits .container .icon-content .icon-box3 {
+  padding: 45px;
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-color: #9397AD;
+}
+.wrapper main .benefits .container .icon-content .icon-box3:hover {
+  background-color: #EFF2FC;
+}
+.wrapper main .benefits .container .icon-content .icon-box4 {
+  padding: 45px;
+  border: 2px solid black;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-color: #9397AD;
+}
+.wrapper main .benefits .container .icon-content .icon-box4:hover {
+  background-color: #EFF2FC;
+}
+.wrapper main .benefits .container .icon-content .icon-box5 {
+  padding: 45px;
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+  border-color: #9397AD;
+}
+.wrapper main .benefits .container .icon-content .icon-box5:hover {
+  background-color: #EFF2FC;
+}
+.wrapper main .benefits .container .icon-content .icon-box6 {
+  padding: 45px;
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+  border-color: #9397AD;
+}
+.wrapper main .benefits .container .icon-content .icon-box6:hover {
+  background-color: #EFF2FC;
+}
+.wrapper main .slidersection {
+  padding-top: 120px;
+  height: 988px;
+  background: linear-gradient(to right, #0B0F19 0%, #0B0F19 50%, white 50%, white 100%);
+}
+.wrapper main .slidersection .container .textsides {
+  display: flex;
+  gap: 30px;
+}
+.wrapper main .slidersection .container .textsides .darkside {
+  color: white;
+  font-size: 50px;
+  padding-left: 140px;
+}
+.wrapper main .slidersection .container .textsides .lightside {
+  font-size: 50px;
+}
+.wrapper main .slidersection .container .btn-n-line button {
+  display: inline-block;
+  border-radius: 100%;
+  box-shadow: none;
+  padding: 8px;
+  width: 45px;
+  font-size: 15px;
+  position: relative;
+  left: 487px;
+  top: -135px;
+  z-index: 2;
+}
+.wrapper main .slidersection .container .btn-n-line button:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+}
+.wrapper main .slidersection .container .btn-n-line button i {
+  margin-left: 4px;
+}
+.wrapper main .slidersection .container .btn-n-line img {
+  position: relative;
+  left: 460px;
+  top: -188px;
+  z-index: 1;
+}
+.wrapper main .slidersection .container img {
+  position: absolute;
+  top: 2380px;
+  right: 418px;
+  z-index: 0;
+}
+.wrapper main .content {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.wrapper main .content .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.wrapper main .content .container img {
+  margin-right: 60px;
+  position: relative;
+  left: -50px;
+}
+.wrapper main .content .container .manage-worktext {
+  padding-top: 120px;
+}
+.wrapper main .content .container .manage-worktext h3 {
+  padding-bottom: 35px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.wrapper main .content .container .manage-worktext p {
+  color: #9397AD;
+  font-size: 17px;
+}
+.wrapper main .content .container .manage-worktext p i {
+  color: #6366f1;
+  padding-right: 8px;
+}
+.wrapper main .content .container .manage-worktext button {
+  margin-top: 35px;
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 30px;
+}
+.wrapper main .content .container .manage-worktext button i {
+  margin-left: 10px;
+  padding-right: 15px;
+}
+.wrapper main .phoneapps {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #EFF2FC;
+}
+.wrapper main .phoneapps .container .iphonescreen img {
+  padding-right: 850px;
+}
+.wrapper main .phoneapps .container .apptext {
+  position: absolute;
+  right: 380px;
+  top: 4075px;
+}
+.wrapper main .phoneapps .container .apptext h2 {
+  font-size: 47px;
+  font-weight: 700;
+}
+.wrapper main .phoneapps .container .apptext p {
+  color: #9397AD;
+  font-size: 18px;
+}
+.wrapper main .phoneapps .container .apptext h4 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.wrapper main .phoneapps .container .apptext .ratingtext {
+  color: #565973;
+  padding-bottom: 35px;
+}
+.wrapper main .phoneapps .container .apptext .starreviews {
+  color: #FFBA08;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 10px;
+}
+.wrapper main .phoneapps .container .apptext .downloadapp {
+  position: absolute;
+  left: 250px;
+  top: 258px;
+}
+.wrapper main .phoneapps .container .apptext .downloadplay {
+  position: absolute;
+  left: 250px;
+  top: 450px;
+}
+.wrapper main .phoneapps .container .apptext .appstore {
+  margin-top: 50px;
+}
+.wrapper main .tools {
+  padding-top: 120px;
+}
+.wrapper main .tools .container .tooltext {
+  text-align: center;
+}
+.wrapper main .tools .container .tooltext h3 {
+  color: #0B0F19;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 25px;
+}
+.wrapper main .tools .container .tooltext p {
+  color: #9397AD;
+  font-size: 18px;
+}
+.wrapper main .tools .container .tooltext .secondtooltext {
+  position: relative;
+  bottom: 13px;
+  padding-bottom: 50px;
+}
+.wrapper main .tools .container .toolapps {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 100px;
+}
+.wrapper main .tools .container .toolapps .borders:hover {
+  background-color: #EFF2FC;
+}
+.wrapper main .tools .container .toolapps img {
+  padding-bottom: 25px;
+  padding-left: 75px;
+  position: relative;
+  top: 40px;
+  left: -30px;
+}
+.wrapper main .tools .container .toolapps p {
+  padding-bottom: 80px;
+  padding-left: 75px;
+  position: relative;
+  top: 40px;
+  left: -30px;
+}
+.wrapper main .tools .container .toolapps .weirdtext {
+  padding-top: 12px;
+}
+.wrapper main .subscribe {
+  background-color: #EFF2FC;
+  padding-bottom: 120px;
+}
+.wrapper main .subscribe .container .subscribehead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 110px;
+}
+.wrapper main .subscribe .container .subscribehead h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.wrapper main .subscribe .container .subscribehead img {
+  padding-left: 30px;
+  margin-top: 10px;
+}
+.wrapper main .subscribe .container .signupnewsletter {
+  position: relative;
+  left: 190px;
+  bottom: -90px;
+}
+.wrapper main .subscribe .container .signupnewsletter h4 {
+  font-weight: 700;
+}
+.wrapper main .subscribe .container .newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 440px;
+}
+.wrapper main .subscribe .container .newsletter #backupabit {
+  padding-left: 60px;
+}
+.wrapper main .subscribe .container .newsletter .changeplace {
+  position: relative;
+  bottom: 25px;
+}
+.wrapper main .subscribe .container .newsletter #changeplace2 {
+  padding-left: 35px;
+}
+.wrapper main .subscribe .container .newsletter .checkboxcolor {
+  display: block;
+  position: relative;
+  top: 10px;
+  width: 20px;
+  height: 30px;
+  accent-color: #6366F1;
+  cursor: pointer;
+}
+.wrapper main .subscribe .container .newsletter p {
+  padding-left: 30px;
+  color: #565973;
+  font-size: 16px;
+  position: relative;
+  top: -17px;
+}
+.wrapper main .subscribe .container .subscribeemail {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+  padding-left: 190px;
+  padding-bottom: 10px;
+}
+.wrapper main .subscribe .container .subscribeemail input {
+  height: 50px;
+  width: 770px;
+  padding-right: 100px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+.wrapper main .subscribe .container .subscribeemail button {
+  height: 50px;
+  width: 150px;
+}
+.wrapper main .subscribe .container .lineundernone {
+  padding-left: 275px;
+  text-decoration: none;
+}
+.wrapper footer {
+  padding-top: 100px;
+}
+.wrapper footer .container .socialmedias {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.wrapper footer .container .socialmedias a {
+  background-color: #EFF2FC;
+  border-radius: 7px;
+}
+.wrapper footer .container .socialmedias a:hover {
+  background-color: #c5d2ff;
+  transition: 0.3s;
+}
+.wrapper footer .container .socialmedias a i {
+  margin: 15px 17.5px 15px 17.5px;
+  font-size: 20px;
+  color: #33354D;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  transition: 0.4s;
+}
+.wrapper .btn-white-s {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.4s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  padding-left: 80px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header .switch {
+  display: flex;
+  padding-top: 7px;
+  position: relative;
+  left: 100px;
+  top: 3px;
+}
+.wrapper header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wrapper header .switch label {
+  position: relative;
+}
+.wrapper header .switch label .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+  right: 140px;
+}
+.wrapper header .switch label .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper header .switch label input:checked + .sliderround {
+  background-color: #6366f1;
+}
+.wrapper header .switch label input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper header .switch p {
+  color: #565973;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  right: 140px;
+}
+.wrapper header .switch .lightswitch {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.wrapper header .switch .darkswitch {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.wrapper header .menubuttons {
+  display: flex;
+  gap: 20px;
+}
+.wrapper header .menubuttons a {
+  text-decoration: none;
+  position: relative;
+  left: 110px;
+  height: 40px;
+}
+.wrapper main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: relative;
+  bottom: -100px;
+}
+.wrapper main .container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-right: 60px;
+}
+.wrapper main .container .signintext h2 {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.wrapper main .container .signintext p {
+  font-size: 18px;
+}
+.wrapper main .container .signintext p a {
+  text-decoration: none;
+}
+.wrapper main .container .signinform {
+  padding-top: 20px;
+}
+.wrapper main .container .signinform p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .signinform input {
+  height: 40px;
+  width: 490px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 5px;
+}
+.wrapper main .container .signinform .signinpassword {
+  padding-top: 20px;
+}
+.wrapper main .container .rembmecheckbox {
+  display: flex;
+  gap: 15px;
+  padding-top: 3px;
+}
+.wrapper main .container .rembmecheckbox input {
+  width: 17px;
+  accent-color: #6366F1;
+  cursor: pointer;
+}
+.wrapper main .container .rembmecheckbox p {
+  margin-top: 15px;
+  font-size: 17px;
+  color: #565973;
+}
+.wrapper main .container .signinbuttons {
+  padding-top: 15px;
+}
+.wrapper main .container .signinbuttons button {
+  width: 100%;
+  height: 45px;
+}
+.wrapper main .container .signinbuttons p {
+  padding-top: 18px;
+  text-align: center;
+}
+.wrapper main .container .signinbuttons p a {
+  text-decoration: none;
+  color: #6366F1;
+  font-size: 17px;
+}
+.wrapper main .container .signinbuttons p a:hover {
+  color: #191919;
+  transition: 0.3s;
+}
+.wrapper footer {
+  padding-top: 100px;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  transition: 0.4s;
+}
+.wrapper .btn-white-s {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.4s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  position: relative;
+  left: -80px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header .switch {
+  display: flex;
+  padding-top: 7px;
+  position: relative;
+  left: 185px;
+  top: 3px;
+}
+.wrapper header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wrapper header .switch label {
+  position: relative;
+}
+.wrapper header .switch label .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.wrapper header .switch label .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper header .switch label input:checked + .sliderround {
+  background-color: #6366f1;
+}
+.wrapper header .switch label input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper header .switch p {
+  color: #565973;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper header .switch .lightswitch {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.wrapper header .switch .darkswitch {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.wrapper header .menubuttons {
+  display: flex;
+  gap: 20px;
+}
+.wrapper header .menubuttons a {
+  text-decoration: none;
+  position: relative;
+  left: 110px;
+  height: 40px;
+}
+.wrapper main {
+  padding-top: 140px;
+  padding-bottom: 120px;
+}
+.wrapper main .container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-right: 80px;
+}
+.wrapper main .container .input-validation-error {
+  border: 0.063rem solid darkred !important;
+  color: darkred;
+}
+.wrapper main .container .createacctext h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.wrapper main .container .createacctext p {
+  font-size: 18px;
+}
+.wrapper main .container .createacctext p a {
+  text-decoration: none;
+}
+.wrapper main .container .creatingacc {
+  padding-top: 10px;
+}
+.wrapper main .container .creatingacc .firstlastname {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.wrapper main .container .creatingacc .firstlastname p {
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .creatingacc .firstlastname input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+.wrapper main .container .creatingacc .emailpassconf {
+  display: grid;
+  gap: 15px;
+  padding-top: 20px;
+}
+.wrapper main .container .creatingacc .emailpassconf p {
+  position: relative;
+  top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .creatingacc .emailpassconf input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+.wrapper main .container .accepttnc {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.wrapper main .container .accepttnc input {
+  width: 17px;
+  height: 20px;
+  position: relative;
+  top: 29px;
+  accent-color: #6366F1;
+  cursor: pointer;
+}
+.wrapper main .container .accepttnc .input-validation-error {
+  border: 0.063rem solid darkred !important;
+  color: darkred;
+}
+.wrapper main .container .accepttnc p {
+  padding-left: 30px;
+  font-size: 17px;
+  color: #565973;
+}
+.wrapper main .container button {
+  width: 100%;
+  height: 45px;
+}
+.wrapper footer {
+  padding-top: 100px;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  transition: 0.3s;
+}
+.wrapper .btn-white-s {
+  position: relative;
+  margin-right: 10px;
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.3s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  position: relative;
+  left: -130px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header .switch {
+  display: flex;
+  padding-top: 7px;
+  position: relative;
+  left: 310px;
+  top: 3px;
+}
+.wrapper header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wrapper header .switch label {
+  position: relative;
+}
+.wrapper header .switch label .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.wrapper header .switch label .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper header .switch label input:checked + .sliderround {
+  background-color: #6366f1;
+}
+.wrapper header .switch label input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper header .switch p {
+  color: #565973;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper header .switch .lightswitch {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.wrapper header .switch .darkswitch {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.wrapper header #profilepic {
+  width: 46px;
+  position: relative;
+  left: 175px;
+}
+.wrapper main {
+  padding-top: 20px;
+}
+.wrapper main .container .account-profile {
+  position: relative;
+  left: -450px;
+  width: 340px;
+  border: 2px solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-color: #E2E5F1;
+  height: 1180px;
+}
+.wrapper main .container .account-profile .acc-profileinfo {
+  padding-left: 10px;
+  padding-top: 40px;
+}
+.wrapper main .container .account-profile .acc-profileinfo img {
+  width: 130px;
+  margin-left: 90px;
+}
+.wrapper main .container .account-profile .acc-profileinfo #acc-btn-1 {
+  display: inline-block;
+  border-radius: 100%;
+  padding: 6px;
+  width: 35px;
+  position: relative;
+  left: 180px;
+  bottom: 40px;
+}
+.wrapper main .container .account-profile .acc-profileinfo #acc-btn-1 i {
+  position: relative;
+  left: 4px;
+}
+.wrapper main .container .account-profile .acc-profileinfo h4 {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 15px;
+  margin-left: 105px;
+  position: relative;
+  left: -50px;
+  bottom: 40px;
+}
+.wrapper main .container .account-profile .acc-profileinfo p {
+  margin-left: 70px;
+  position: relative;
+  left: 15px;
+  bottom: 40px;
+}
+.wrapper main .container .account-profile .acc-btns-details {
+  padding-top: 20px;
+}
+.wrapper main .container .account-profile .acc-btns-details button {
+  width: 320px;
+  height: 45px;
+  text-align: start;
+  font-size: 18px;
+}
+.wrapper main .container .account-profile .acc-btns-details button i {
+  padding-right: 6px;
+}
+.wrapper main .container .account-profile .acc-btns-details p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 320px;
+  height: 45px;
+  border-radius: 8px;
+}
+.wrapper main .container .account-profile .acc-btns-details p:hover {
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  background-color: #6366f1;
+}
+.wrapper main .container .account-profile .acc-btns-details p i {
+  padding-left: 23px;
+  padding-right: 8px;
+}
+.wrapper main .container .account-details {
+  position: absolute;
+  left: 740px;
+  bottom: 230px;
+  width: 855px;
+}
+.wrapper main .container .account-details h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.wrapper main .container .account-details h6 {
+  font-size: 23px;
+  color: #6366f1;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.wrapper main .container .account-details .acc-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  width: 40%;
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 15px;
+}
+.wrapper main .container .account-details h6 {
+  padding-bottom: 20px;
+}
+.wrapper main .container .account-details .basic-info {
+  border: 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #E2E5F1;
+}
+.wrapper main .container .account-details .basic-info .form-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.wrapper main .container .account-details .basic-info .form-details .formpositioning {
+  position: relative;
+  bottom: 15px;
+}
+.wrapper main .container .account-details .basic-info .form-details .formpositioning2 {
+  position: relative;
+  bottom: 30px;
+}
+.wrapper main .container .account-details .basic-info .form-details #optional-text {
+  position: absolute;
+  left: 30px;
+  top: -0.5px;
+  color: #9397AD;
+}
+.wrapper main .container .account-details .basic-info .form-details p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .account-details .basic-info .form-details input {
+  height: 40px;
+  width: 413px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 12px;
+}
+.wrapper main .container .account-details .basic-info .form-details textarea {
+  width: 207%;
+  height: 100px;
+  padding: 10px 20px 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #D4D7E5;
+  resize: none;
+  position: relative;
+  bottom: 12px;
+}
+.wrapper main .container .account-details .acc-address {
+  padding-top: 20px;
+  border: 1px solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: #E2E5F1;
+}
+.wrapper main .container .account-details .acc-address p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .account-details .acc-address .addresspadding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper main .container .account-details .acc-address #optional-text {
+  position: absolute;
+  left: 120px;
+  top: 775px;
+  color: #9397AD;
+}
+.wrapper main .container .account-details .acc-address input {
+  height: 40px;
+  width: 413px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 12px;
+}
+.wrapper main .container .account-details .acc-address .address-input {
+  height: 40px;
+  width: 100%;
+}
+.wrapper main .container .account-details .acc-address .form-details2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.wrapper main .container .account-details .acc-address .acc-buttons {
+  margin-top: 40px;
+}
+.wrapper footer {
+  padding-top: 100px;
+}
+.wrapper footer .container .socialmedias {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.wrapper footer .container .socialmedias a {
+  background-color: #EFF2FC;
+  border-radius: 7px;
+}
+.wrapper footer .container .socialmedias a:hover {
+  background-color: #c5d2ff;
+  transition: 0.3s;
+}
+.wrapper footer .container .socialmedias a i {
+  margin: 15px 17.5px 15px 17.5px;
+  font-size: 20px;
+  color: #33354D;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  transition: 0.3s;
+}
+.wrapper .btn-white-s {
+  position: relative;
+  margin-right: 10px;
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.3s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  position: relative;
+  left: -130px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header .switch {
+  display: flex;
+  padding-top: 7px;
+  position: relative;
+  left: 310px;
+  top: 3px;
+}
+.wrapper header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wrapper header .switch label {
+  position: relative;
+}
+.wrapper header .switch label .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.wrapper header .switch label .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper header .switch label input:checked + .sliderround {
+  background-color: #6366f1;
+}
+.wrapper header .switch label input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper header .switch p {
+  color: #565973;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper header .switch .lightswitch {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.wrapper header .switch .darkswitch {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.wrapper header #profilepic {
+  width: 46px;
+  position: relative;
+  left: 175px;
+}
+.wrapper main {
+  /* Mainheader section */
+  /* Course-cards section */
+}
+.wrapper main .mainheader {
+  padding-top: 80px;
+}
+.wrapper main .mainheader .container P a {
+  text-decoration: none;
+}
+.wrapper main .mainheader .container P #arrowsright {
+  font-size: 11px;
+  position: relative;
+  top: -1px;
+}
+.wrapper main .mainheader .container P .homenav {
+  color: #9397AD;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.wrapper main .mainheader .container P .homenav i {
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+.wrapper main .mainheader .container P .homenav:hover {
+  color: #6366f1;
+}
+.wrapper main .mainheader .container P .coursesnav {
+  font-size: 18px;
+  color: #6366f1;
+  padding-left: 10px;
+}
+.wrapper main .mainheader .container .courseshead {
+  display: flex;
+  padding-top: 30px;
+}
+.wrapper main .mainheader .container .courseshead h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-right: 543px;
+}
+.wrapper main .mainheader .container .courseshead .courseheadinfo {
+  padding-left: 25px;
+}
+.wrapper main .mainheader .container .courseshead .courseheadinfo input {
+  height: 40px;
+  width: 240px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+.wrapper main .mainheader .container .courseshead .courseheadinfo select {
+  height: 40px;
+  width: 240px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+}
+.wrapper main .mainheader .container .courseshead .courseheadinfo .categorycourse {
+  color: #4e5068;
+}
+.wrapper main .mainheader .container .courseshead .courseheadinfo .searchcourse {
+  width: 300px;
+}
+.wrapper main .mainheader .container .courseshead .courseheadinfo i {
+  position: relative;
+  left: 205px;
+  bottom: 33px;
+}
+.wrapper main .mainheader .container .courseshead .courseheadinfo #magglas {
+  position: relative;
+  left: 265px;
+  bottom: 33px;
+}
+.wrapper main .course-cards {
+  padding-top: 50px;
+}
+.wrapper main .course-cards .container .all-courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 45px;
+  gap: 30px;
+}
+.wrapper main .course-cards .container .all-courses .best-sellers {
+  border: 1px solid #22C55E;
+  width: 100px;
+  text-align: center;
+  background-color: #22C55E;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  bottom: -15px;
+  left: 725px;
+}
+.wrapper main .course-cards .container .all-courses .best-sellers2 {
+  border: 1px solid #22C55E;
+  width: 100px;
+  text-align: center;
+  background-color: #22C55E;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  top: 380px;
+  left: 280px;
+}
+.wrapper main .course-cards .container .all-courses:hover {
+  cursor: pointer;
+}
+.wrapper main .course-cards .container .all-courses .course-line {
+  padding-bottom: 10px;
+}
+.wrapper main .course-cards .container .all-courses .course-line img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 {
+  box-shadow: rgb(207, 207, 207) 0px 0px 12px 0px;
+  width: 415.2px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 23px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .orgprice {
+  color: #9397AD;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  top: 720px;
+  right: 585px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .orgprice2 {
+  color: #9397AD;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  bottom: -906px;
+  left: 800px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 h5 {
+  font-size: 22px;
+  font-weight: 700;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: #33354D;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 p {
+  color: #565973;
+  padding-left: 22px;
+  padding-top: 5px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .authortext:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .purplecoursetext {
+  color: #6366f1;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  bottom: 10px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .redcoursetext {
+  color: #EF4444;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  bottom: 10px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 img {
+  position: relative;
+  left: 22px;
+  bottom: 15px;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .coursehours {
+  display: flex;
+}
+.wrapper main .course-cards .container .all-courses .course-line .course-text1 .coursehours p {
+  color: #9397AD;
+  padding-bottom: 15px;
+}
+.wrapper main .course-cards .container .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 110px;
+}
+.wrapper main .course-cards .container .pagination p {
+  padding: 20px;
+  padding-top: 8px;
+  font-size: 20px;
+  height: 48px;
+  width: 50px;
+}
+.wrapper main .course-cards .container .pagination p:hover {
+  cursor: pointer;
+  background-color: #EFF2FC;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+.wrapper main .course-cards .container .pagination p i {
+  font-size: 12px;
+  position: relative;
+  bottom: 2px;
+}
+.wrapper main .course-cards .container .pagination .numbergray {
+  background-color: #EFF2FC;
+  border-radius: 7px;
+  margin-left: 10px;
+}
+.wrapper main .course-cards .container .pagination .numbergray:hover {
+  cursor: pointer;
+  background-color: #c5d2ff;
+  transition: 0.3s;
+}
+.wrapper main .course-cards .container .pagination .numberpurple {
+  background-color: #6366f1;
+  color: white;
+  border-radius: 7px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.wrapper main .course-cards .container .pagination .numberpurple:hover {
+  cursor: pointer;
+  background-color: #EFF2FC;
+  color: #33354D;
+  transition: 0.3s;
+}
+.wrapper main .banner {
+  padding-bottom: 20px;
+}
+.wrapper main .banner .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #F3F6FF;
+}
+.wrapper main .banner .container .bannertext {
+  padding-left: 80px;
+}
+.wrapper main .banner .container .bannertext p {
+  font-size: 22px;
+  color: #565973;
+}
+.wrapper main .banner .container .bannertext h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.wrapper main .banner .container .bannertext #purplebanner {
+  position: absolute;
+  left: 600px;
+  bottom: -1465px;
+  color: #6366f1;
+}
+.wrapper main .banner .container .bannertext #normalbanner {
+  position: absolute;
+  left: 720px;
+  bottom: -1465px;
+}
+.wrapper main .banner .container .bannertext button {
+  margin-top: 40px;
+  width: 170px;
+  height: 50px;
+}
+.wrapper main .banner .container img {
+  margin: 60px;
+  padding-left: 80px;
+}
+.wrapper footer {
+  padding-top: 100px;
+}
+.wrapper footer .container .socialmedias {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.wrapper footer .container .socialmedias a {
+  background-color: #EFF2FC;
+  border-radius: 7px;
+}
+.wrapper footer .container .socialmedias a:hover {
+  background-color: #c5d2ff;
+  transition: 0.3s;
+}
+.wrapper footer .container .socialmedias a i {
+  margin: 15px 17.5px 15px 17.5px;
+  font-size: 20px;
+  color: #33354D;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}

@@ -1,0 +1,84 @@
+﻿@model SignInViewModel
+@{
+	ViewData["Title"] = "Sign In";
+}
+<div class="wrapper">
+    <header>
+        <div class="container">
+            <div class="siliconlogo">
+                <a asp-action="Home" asp-controller="Default">
+                    <img src="~/images/solid.svg" alt="silicon logo">
+                </a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="#">Overview</a>
+                    <a href="#">Features</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <div class="switch">
+                <p class="lightswitch">Light</p>
+                <label>
+                    <input type="checkbox">
+                    <span class="sliderround"></span>
+                </label>
+                <p class="darkswitch">Dark</p>
+            </div>
+            <div class="menubuttons">
+                <a asp-action="SignIn" asp-controller="Auth">
+                    <button class="btn-white-s"><i class="fa-solid fa-arrow-right-to-bracket"></i> Sign in</button>
+                </a>
+                <a id="signupid" asp-action="SignUp" asp-controller="Auth">
+                    <button class="btn-purple-s"><i class="fa-regular fa-user"></i> Sign up</button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container">
+
+            @if (!string.IsNullOrEmpty(ViewData["StatusMessage"]?.ToString()))
+            {
+                @ViewData["StatusMessage"]
+            }
+
+            <form method="post" asp-action="SignIn" asp-controller="Auth" asp-route-ReturnUrl="@ViewData["ReturnUrl"]" novalidate>
+                <div class="signintext">
+                    <h2>Welcome Back</h2>
+                    <p>Don't have an account yet? <a asp-action="SignUp" asp-controller="Auth">Sign up here</a></p>
+                </div>
+                <div class="signinform">
+                    <div>
+                        <p>Email</p>
+                        <input class="input-validation-error" asp-for="Email">
+                    </div>
+                    <div class="signinpassword">
+                        <p>Password</p>
+                        <input class="input-validation-error" asp-for="Password" />
+                    </div>
+                </div>
+                <div class="rembmecheckbox">
+                    <input class="input-validation-error" asp-for="IsPresistent">
+                    <p>Remember me</p>
+                </div>
+                <div class="signinbuttons">
+                    <button type="submit" class="btn-purple-s">Sign in</button>
+                    <p><a href="#">Forgot your password?</a></p>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+    @await Html.PartialAsync("_ValidationScriptPartial")
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Silicon. All rights reserved. Pulvinar urna condimentum amet tempor, ornare integer. Lorem odio justo malesuada suspendisse</p>
+            <p class="footerrights">viverra aliquet quisque turpis non. Feugiat in odio non nunc ornare consectetur.</p>
+        </div>
+    </footer>
+</div>

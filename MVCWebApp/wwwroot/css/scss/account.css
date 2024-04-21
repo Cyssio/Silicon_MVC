@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper .btn-purple-s {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-purple-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-purple-s:hover {
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  transition: 0.3s;
+}
+.wrapper .btn-white-s {
+  position: relative;
+  margin-right: 10px;
+  background-color: rgb(247, 243, 243);
+  border: 1px solid rgb(247, 243, 243);
+  color: #191919;
+  padding: 6.5px 23px;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  box-shadow: rgb(207, 207, 207) 0px 1px 1px 1px;
+}
+.wrapper .btn-white-s i {
+  margin-right: 4px;
+  font-size: 0.9em;
+}
+.wrapper .btn-white-s:hover {
+  background-color: #6366f1;
+  border: 1px solid #6366f1;
+  color: #f0efe9;
+  transition: 0.3s;
+}
+.wrapper header {
+  padding-top: 20px;
+}
+.wrapper header .container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto auto auto auto;
+}
+.wrapper header .menu {
+  position: relative;
+  left: -130px;
+}
+.wrapper header .menu a {
+  color: #33354D;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.wrapper header .switch {
+  display: flex;
+  padding-top: 7px;
+  position: relative;
+  left: 310px;
+  top: 3px;
+}
+.wrapper header .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.wrapper header .switch label {
+  position: relative;
+}
+.wrapper header .switch label .sliderround {
+  display: inline-block;
+  width: 68px;
+  height: 33px;
+  background-color: #565973;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+  position: relative;
+}
+.wrapper header .switch label .sliderround::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 29px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 200px;
+  top: 2px;
+  left: 2px;
+}
+.wrapper header .switch label input:checked + .sliderround {
+  background-color: #6366f1;
+}
+.wrapper header .switch label input:checked + .sliderround::before {
+  transform: translateX(34px);
+}
+.wrapper header .switch p {
+  color: #565973;
+  font-size: 18px;
+  font-weight: 500;
+}
+.wrapper header .switch .lightswitch {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+.wrapper header .switch .darkswitch {
+  padding-left: 12px;
+  padding-top: 3px;
+}
+.wrapper header #profilepic {
+  width: 46px;
+  position: relative;
+  left: 175px;
+}
+.wrapper main {
+  padding-top: 20px;
+}
+.wrapper main .container .account-profile {
+  width: 340px;
+  border: 2px solid;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-color: #E2E5F1;
+  height: 1180px;
+}
+.wrapper main .container .account-profile .acc-profileinfo {
+  padding-left: 10px;
+  padding-top: 40px;
+}
+.wrapper main .container .account-profile .acc-profileinfo img {
+  width: 130px;
+  margin-left: 90px;
+}
+.wrapper main .container .account-profile .acc-profileinfo #acc-btn-1 {
+  display: inline-block;
+  border-radius: 100%;
+  padding: 6px;
+  width: 35px;
+  position: relative;
+  bottom: -45px;
+  left: -42px;
+}
+.wrapper main .container .account-profile .acc-profileinfo #acc-btn-1 i {
+  position: relative;
+  left: 2px;
+}
+.wrapper main .container .account-profile .acc-profileinfo h4 {
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 15px;
+  margin-left: 105px;
+}
+.wrapper main .container .account-profile .acc-profileinfo p {
+  margin-left: 70px;
+}
+.wrapper main .container .account-profile .acc-btns-details {
+  padding-top: 20px;
+}
+.wrapper main .container .account-profile .acc-btns-details button {
+  width: 320px;
+  height: 45px;
+  text-align: start;
+  font-size: 18px;
+}
+.wrapper main .container .account-profile .acc-btns-details button i {
+  padding-right: 6px;
+}
+.wrapper main .container .account-profile .acc-btns-details p {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  width: 320px;
+  height: 45px;
+  border-radius: 8px;
+}
+.wrapper main .container .account-profile .acc-btns-details p:hover {
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  background-color: #6366f1;
+}
+.wrapper main .container .account-profile .acc-btns-details p i {
+  padding-left: 23px;
+  padding-right: 8px;
+}
+.wrapper main .container .account-details {
+  position: absolute;
+  left: 740px;
+  bottom: -265px;
+  width: 855px;
+}
+.wrapper main .container .account-details h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.wrapper main .container .account-details h6 {
+  font-size: 23px;
+  color: #6366f1;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.wrapper main .container .account-details .acc-buttons {
+  padding-bottom: 20px;
+  position: relative;
+  bottom: 15px;
+}
+.wrapper main .container .account-details h6 {
+  padding-bottom: 20px;
+}
+.wrapper main .container .account-details .basic-info {
+  border: 1px solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #E2E5F1;
+}
+.wrapper main .container .account-details .basic-info .form-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.wrapper main .container .account-details .basic-info .form-details .formpositioning {
+  position: relative;
+  bottom: 15px;
+}
+.wrapper main .container .account-details .basic-info .form-details .formpositioning2 {
+  position: relative;
+  bottom: 30px;
+}
+.wrapper main .container .account-details .basic-info .form-details #optional-text {
+  position: absolute;
+  left: 30px;
+  top: -0.5px;
+  color: #9397AD;
+}
+.wrapper main .container .account-details .basic-info .form-details p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .account-details .basic-info .form-details input {
+  height: 40px;
+  width: 413px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 12px;
+}
+.wrapper main .container .account-details .basic-info .form-details textarea {
+  width: 207%;
+  height: 100px;
+  padding: 10px 20px 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #D4D7E5;
+  resize: none;
+  position: relative;
+  bottom: 12px;
+}
+.wrapper main .container .account-details .acc-address {
+  padding-top: 20px;
+  border: 1px solid;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: #E2E5F1;
+}
+.wrapper main .container .account-details .acc-address p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.wrapper main .container .account-details .acc-address .addresspadding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.wrapper main .container .account-details .acc-address #optional-text {
+  position: absolute;
+  left: 120px;
+  top: 775px;
+  color: #9397AD;
+}
+.wrapper main .container .account-details .acc-address input {
+  height: 40px;
+  width: 413px;
+  border-radius: 5px;
+  padding: 20px 45px 20px 20px;
+  border: 1px solid #D4D7E5;
+  position: relative;
+  bottom: 12px;
+}
+.wrapper main .container .account-details .acc-address .address-input {
+  height: 40px;
+  width: 100%;
+}
+.wrapper main .container .account-details .acc-address .form-details2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.wrapper main .container .account-details .acc-address .acc-buttons {
+  margin-top: 40px;
+}
+.wrapper footer {
+  padding-top: 100px;
+}
+.wrapper footer .container .socialmedias {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.wrapper footer .container .socialmedias a {
+  background-color: #EFF2FC;
+  border-radius: 7px;
+}
+.wrapper footer .container .socialmedias a:hover {
+  background-color: #c5d2ff;
+  transition: 0.3s;
+}
+.wrapper footer .container .socialmedias a i {
+  margin: 15px 17.5px 15px 17.5px;
+  font-size: 20px;
+  color: #33354D;
+}
+.wrapper footer .container p {
+  text-align: center;
+  font-size: 18px;
+  color: #9397AD;
+}
+.wrapper footer .container .footerrights {
+  padding-bottom: 50px;
+  position: relative;
+  bottom: 12px;
+}
